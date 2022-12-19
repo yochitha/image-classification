@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 import os
 
-from helper_classes import WeakClassifier, VJ_Classifier
+from utility import WeakClassifier, VJ_Classifier
 
 def load_images(folder, size=(32, 32)):
     """Load images to workspace.
